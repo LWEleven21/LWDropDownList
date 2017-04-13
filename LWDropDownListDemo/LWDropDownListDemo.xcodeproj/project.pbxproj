@@ -461,6 +461,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CPL3D25QTZ;
 				INFOPLIST_FILE = LWDropDownListDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dhql.LWDropDownListDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -473,6 +474,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CPL3D25QTZ;
 				INFOPLIST_FILE = LWDropDownListDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.dhql.LWDropDownListDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -548,6 +550,7 @@
 				C9F908831E9F6AFA00973DAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9F908841E9F6AFA00973DAD /* Build configuration list for PBXNativeTarget "LWDropDownListDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -556,6 +559,7 @@
 				C9F908861E9F6AFA00973DAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C9F908871E9F6AFA00973DAD /* Build configuration list for PBXNativeTarget "LWDropDownListDemoUITests" */ = {
 			isa = XCConfigurationList;
@@ -564,6 +568,7 @@
 				C9F908891E9F6AFA00973DAD /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
