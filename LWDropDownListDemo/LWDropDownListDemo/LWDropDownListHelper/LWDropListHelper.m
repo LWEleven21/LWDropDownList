@@ -116,6 +116,9 @@
         [self.delegate LWDrioDownList:self didSelectAtIndex:indexPath.row];
     }
     _leftLable.text = self.array[indexPath.row];
+    [UIView animateWithDuration:0.3f animations:^{
+        _rightImageView.transform = CGAffineTransformRotate(_rightImageView.transform, M_PI);
+    }];
 }
 - (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
 {
