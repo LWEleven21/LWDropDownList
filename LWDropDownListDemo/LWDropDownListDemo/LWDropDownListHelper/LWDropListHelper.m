@@ -50,6 +50,7 @@
 -(void)layoutSubviews {
     [super layoutSubviews];
     if (flag) {
+        _index = NSIntegerMin;
         x = self.frame.origin.x;
         y = self.frame.origin.y;
         width = self.frame.size.width;
@@ -98,12 +99,12 @@
     }
     cell.textLabel.text = self.array[indexPath.row];
     cell.selectionStyle = UITableViewCellSelectionStyleNone;
-    if (self.index) {
+    
         if (self.index == indexPath.row)
         {
             [cell addSubview:self.arrow];
         }
-    }
+    
     return cell;
 }
 #pragma mark ----------------UITableView  表的选中方法
@@ -176,7 +177,6 @@
             _leftLable.textAlignment = NSTextAlignmentLeft;
         }
         [_titleButton addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchUpInside];
-
     }
     return _titleButton;
 }
